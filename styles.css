@@ -1,0 +1,64 @@
+.icon {
+    height: 20px;
+}
+
+
+.topBar {
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid white;
+}
+
+.search {
+    border: 2px solid white;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.col {
+    margin: 5px;
+    border: solid black 2px;
+    padding: 5px;
+}
+
+.header {
+    display: flex;
+    background-color: white;
+}
+
+.img1 {
+    height: 300px;
+}
+
+.follow {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+    color: #0088cc;
+
+}
+
+.box {
+    border: solid #0088cc 1px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.tweets {
+    flex-direction: column;
+    display: flex;
+}
+
+.pictweet {
+    height: 500px;
+    padding:3px;
+
+}
+
+p:hover, h2:hover, a:hover {
+  background-color: #ffb3b3;
+} 
